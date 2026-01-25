@@ -7,7 +7,7 @@ import WatchFace from './components/WatchFace';
 /**
  * CONFIGURATION: CHANGE THE END DATE HERE
  * Format: 'YYYY-MM-DD'
- * 47 years old on 👉 11-07-2049 , making month 12=Dec so better math
+ * 47 years old on 👉 12-02-2026 , making month 12=Dec so better math
  */
 const TARGET_END_DATE = '2049-12-31'; 
 
@@ -44,7 +44,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="mt-8 text-center space-y-1">
-           <div className="text-zinc-600 text-[9px] font-black uppercase tracking-[0.5em]">The End Date : 47 Age</div>
+           <div className="text-zinc-600 text-[9px] font-black uppercase tracking-[0.5em]">Learn Full Stack Dev</div>
            <div className="text-zinc-400 font-bold mono text-sm opacity-50">
              {new Date(config.endDate).toLocaleDateString(undefined, { dateStyle: 'long' })}
            </div>
