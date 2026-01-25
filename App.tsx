@@ -8,7 +8,7 @@ import WatchFace from './components/WatchFace';
  * CONFIGURATION: CHANGE THE END DATE HERE
  * Format: 'YYYY-MM-DD'
  */
-const TARGET_END_DATE = '2080-12-31'; 
+const TARGET_END_DATE = '2049-07-11'; 
 
 const App: React.FC = () => {
   // Uses the configuration constant defined above
