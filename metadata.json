@@ -1,0 +1,5 @@
+{
+  "name": "The End Date",
+  "description": "A high-end Wear OS inspired time-remaining visualization featuring concentric rings for years, days, hours, and minutes.",
+  "requestFramePermissions": []
+}
