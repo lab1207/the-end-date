@@ -7,6 +7,7 @@ import WatchFace from './components/WatchFace';
 /**
  * CONFIGURATION: CHANGE THE END DATE HERE
  * Format: 'YYYY-MM-DD'
+ * 47 years old on 👉 11-07-2049
  */
 const TARGET_END_DATE = '2049-07-11'; 
 
