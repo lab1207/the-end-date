@@ -44,7 +44,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="mt-8 text-center space-y-1">
-           <div className="text-zinc-600 text-[9px] font-black uppercase tracking-[0.5em]">Learn Full Stack Dev</div>
+           <div className="text-zinc-600 text-[9px] font-black uppercase tracking-[0.5em]">Learn Full Stack Web Dev MERN</div>
            <div className="text-zinc-400 font-bold mono text-sm opacity-50">
              {new Date(config.endDate).toLocaleDateString(undefined, { dateStyle: 'long' })}
            </div>
