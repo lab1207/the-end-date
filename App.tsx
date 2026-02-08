@@ -9,7 +9,7 @@ import WatchFace from './components/WatchFace';
  * Format: 'YYYY-MM-DD'
  * 47 years old on 👉 31-12-2049 , making month 12=Dec so better math
  */
-const TARGET_END_DATE = '2026-02-13'; 
+const TARGET_END_DATE = '2026-02-22'; 
 
 const App: React.FC = () => {
   // Uses the configuration constant defined above
@@ -44,7 +44,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="mt-8 text-center space-y-1">
-           <div className="text-zinc-600 text-[9px] font-black uppercase tracking-[0.5em]">Learn Full Stack Web Dev MERN</div>
+           <div className="text-zinc-600 text-[9px] font-black uppercase tracking-[0.5em]">Learn MERN from 9 2026</div>
            <div className="text-zinc-400 font-bold mono text-sm opacity-50">
              {new Date(config.endDate).toLocaleDateString(undefined, { dateStyle: 'long' })}
            </div>
